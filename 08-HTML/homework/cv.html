@@ -1,0 +1,69 @@
+<!--
+```
+Usando lo que aprendiste de HTML vas a crear un nuevo documento dentro de 
+la carpeta de 'homework' llamado 'cv.html'. En el mismo vas crear tu propio
+ Curriculum, deberá tener las siguientes secciones:
+
+* Titulo
+* Descripción Personal
+* Educación
+* Experiencias Laborales
+* Skills
+* Tu foto
+* Hobbies
+
+Además agregá una sección más donde expliques por qué estás estudiando e
+sta carrera y cuáles son tus expectativas al finalizar la carrera.
+
+Subir también este archivo a su repositorio de github
+
+```
+
+> Para este ejercicio vos vas a tener que elegir que **tags**
+ html usar para darle la mejor estructuración al html.
+  Acordate que en el futuro vamos a ver más en profundidad 
+  los estilos CSS, por lo que por ahora no te preocupes tanto del 
+  layout más allá de las reglas básicas.
+-->
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>CV Albanesi Tomás</title>
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+        <link rel="stylesheet" href="styles.css">
+    </head>
+    <body>
+        <div><!-- FOTO -->
+            <img id="miFoto" src="fotoMia.jpeg">
+        </div>
+        <div class = "bloqueInline">
+            <div id="primerBloque"><!-- NOMBRE Y DESCRIPCION PERSONAL-->
+                <h1 id="name">Tomás Albanesi</h1>
+                <ul>
+                    <li>Edad: 21</li>
+                    <li>Dirección: Argentina, Santa fe, Rosario, Ayacucho 1656</li>
+                    <li>Email: tmsalbanesi@gmail.com</li>
+                    <li>Phone: (54) 3465 593914</li>
+                </ul>
+            </div>
+            <div id="segundoBloque"><!-- MAS INFO -->
+                <ul>
+                    <li>Eduación: Secundario Terminado</li>
+                    <li>Experiencia Laboral: Ninguna</li>
+                    <li>Skills: HTML, CSS, JAVASCRIPT, PYTHON, C, RACKET, C++, MATEMÁTICAS</li>
+                    <li>Hobbies: League of Legends, Cocina, Fortnite</li>
+                </ul>
+            </div>
+        </div>
+        <section class="buttons"><!-- REDES SOCIALES LINKS -->
+            <a href="https://www.facebook.com/profile.php?id=100002049420907" class="fa fa-facebook"></a>
+            <a href="https://twitter.com/TomasAlbanesi" class="fa fa-twitter"></a>
+            <a href="https://www.instagram.com/tomiialbanesi/" class="fa fa-instagram"></a>
+            <a href="https://github.com/SamotLqq" class="fa fa-git hub"></a>
+            <a href="https://ar.linkedin.com/in/tom%C3%A1s-albanesi-07122b1b5" class="fa fa-linkedin"></a>
+        </section>
+    </body>
+</html>

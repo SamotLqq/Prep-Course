@@ -1,0 +1,3 @@
+link con todos los atributos de css: https://cssreference.io/
+link practica flexbox: http://flexboxfroggy.com/#es
+link practica grid: http://cssgridgarden.com/#es

@@ -1,0 +1,35 @@
+body {
+    background: radial-gradient(rgb(255, 255, 255), rgb(0, 0, 0));
+}
+
+#name {
+    text-align: center;
+}
+
+#miFoto {
+    width: 45%;
+}
+
+.bloqueInline {
+    background: url(https://img.freepik.com/fotos-premium/textura-fondo-degradado-blanco-negro-acuarela_145343-653.jpg);
+    position:absolute;
+    left: 50%;
+    top: 20%;
+    width: 45%;
+    border: 1px solid gray;
+}
+
+.buttons {
+    background: url(https://img.freepik.com/fotos-premium/textura-fondo-degradado-blanco-negro-acuarela_145343-653.jpg);
+    text-align: center;
+    padding: 0px;
+    margin: 50px;
+    border: 1px solid gray;
+}
+
+.buttons a {
+    padding: 100px;
+    color: black;
+    text-decoration: none;
+    font-size: 20px;
+}
